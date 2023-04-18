@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformular der Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navi">
+            <ul class="navi__liste">
+                <li><a href="index.html" class="navi__link">Startseite</a></li>
+                <li><a href="service.html" class="navi__link">Service</a></li>
+                <li><a href="infos.html" class="navi__link">Infos</a></li>
+                <li><a href="impressum.html" class="navi__link">Impressum</a></li>
+                <li><a href="contact.html" class="navi__link--active navi__link">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="forehead">
+            <h1 class="forehead__ueb">Simple</h1>
+            <p id="small__ueb">Web-Layout</p>
+            <!--<img class="callout__logo" src="images/......" alt="......." width="150px">-->
+        </div>
+    </header>
+        <main class="content">
+            <section class="post__info--form">
+                <h2>Kontaktformular</h2>
+                <form class="post__info">
+                    <input type="radio" name="anrede" id="man" value="m"> Herr
+                    <input type="radio" name="anrede" id="woman" value="w"> Frau
+                    <br>
+                    <input type="text" placeholder="Vorname" name="firstname" id="firstname">
+                    <input type="text" placeholder="Nachname" name="lastname" id="lastname">
+                    <br>
+                    <input type="email" placeholder="Email" name="email" id="email">
+                    <input type="tel" placeholder="Rufnummer" name="tel" id="telefon">
+                    <br><br>
+                    <textarea placeholder="Kontaktgrund" class="field"></textarea>
+                    <br>
+                    <button type="submit">Senden</button>
+                </form>
+            </section>
+        </main>
+    <footer>
+        <div class="foot">
+            <p>&copy; 2023</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+@media screen and (max-width: 650px) {
+    html {
+        font-size: 100%;
+    }
+
+    .post {
+        display: block;
+    }
+
+    .postTitel {
+        font-size: 1.5rem;
+    }
+
+    .foreheadTitel {
+        font-size: 2rem;
+        padding: 0;
+        letter-spacing: 0;
+    }
+
+    .foreheadArea {
+        width: 180px;
+    }
+
+    .special_postContent {
+        margin-top: 1rem;
+        padding-top: 0;
+    }
+}
